@@ -29,6 +29,7 @@ blockquote.tagline {
   border-left: 2px solid #7c9070;
   padding-left: 1rem;
   margin: 1.5rem 0;
+  background: transparent;
 }
 :root {
   --global-theme-color: #7c9070;
@@ -54,11 +55,30 @@ html[data-theme="dark"] {
 .social .contact-icons a:hover {
   opacity: 1;
 }
+
+ .post-title {
+  font-size: 1.8rem;
+}
+.post .desc {
+  font-size: 0.95rem;
+}
+.post p {
+  font-size: 0.95rem;
+}
+blockquote.tagline {
+  font-size: 1.1rem;
+}
 </style>
 
-<blockquote class="tagline">
-Studying ownership and governance in generative AI systems — grounded in law, policy, and platform research.
-</blockquote>
+---
+
+I study ownership and governance in generative AI systems, using human-computer interaction methods to understand how these systems are used, contested, and governed in practice. I am supervised by [Asia Biega](https://asiabiega.github.io/) in the Responsible Computing group at MPI-SP.
+
+My path here wasn't linear — it started in computer science, then moved through IP law, technology policy, and platform-economy research before returning to technical research. I've prosecuted IP matters for 150+ clients, advised the Ministry of Labour and Employment during India's G20 presidency in 2023, and participated in a Parliamentary deposition on algorithmic control and data privacy in the gig economy. That grounding shapes how I approach GenAI governance now — not as an abstract doctrinal questions, but as one with real, on-the-ground consequences.
+
+When I'm not deep in a legal-tech rabbit hole, you'll usually find me in the gym lifting weights, swimming, kickboxing, hiking, crocheting, or knitting.
+
+---
 
 <div style="display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 10px; margin: 1.5rem 0;">
   <div style="background: #EEEDFE; border: 2px solid #7F77DD; border-radius: 8px; padding: 12px;">
@@ -78,12 +98,3 @@ Studying ownership and governance in generative AI systems — grounded in law, 
     <p style="font-size: 11px; margin: 0; color: #085041;">BSc (Computer Science), LLB, MA (Public Policy and Governance)</p>
   </div>
 </div>
----
-
-I study ownership and governance in generative AI systems, using human-computer interaction methods to understand how these systems are used, contested, and governed in practice. I am supervised by [Asia Biega](https://asiabiega.github.io/) in the Responsible Computing group at MPI-SP.
-
-My path here wasn't linear — it started in computer science, then moved through IP law, technology policy, and platform-economy research before returning to technical research. I've prosecuted IP matters for 150+ clients, advised the Ministry of Labour and Employment during India's G20 presidency in 2023, and participated in a Parliamentary deposition on algorithmic control and data privacy in the gig economy. That grounding shapes how I approach GenAI governance now — not as an abstract doctrinal questions, but as one with real, on-the-ground consequences.
-
-When I'm not deep in a legal-tech rabbit hole, you'll usually find me in the gym lifting weights, swimming, kickboxing, hiking, crocheting, or knitting.
-
----
